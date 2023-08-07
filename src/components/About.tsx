@@ -1,7 +1,7 @@
 export function About() {
   return (
     <>
-      <h1>About</h1>;
+      <h1 className="text-4xl underline">About</h1>
     </>
   );
 }
