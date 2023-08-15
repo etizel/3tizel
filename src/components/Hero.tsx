@@ -1,3 +1,4 @@
+import { HiDownload } from 'react-icons/hi';
 export function Hero() {
   return (
     <section className="bg-gradient-to-tr from-black to-gray-900 text-white ">
@@ -17,8 +18,8 @@ export function Hero() {
 
         <p className="text-gray-600 my-6">
           Transformando designs em experiências dinâmicas por meio de
-          componentes eficientes e colaborando com a maiores tecnologias do
-          mercado.
+          componentes eficientes e colaborando com as mais avançadas tecnologias
+          do mercado.
         </p>
 
         <div className="flex items-center gap-2">
@@ -28,8 +29,9 @@ export function Hero() {
           <span className="italic text-gray-500">ou</span>
           <a
             href="#"
-            className="cursor-pointer rounded-md bg-orange-600 px-4 py-2 font-headline text-sm font-semibold transition"
+            className="button hover:text-gray-900 flex items-center gap-2"
           >
+            <HiDownload />
             Baixe meu CV
           </a>
         </div>
