@@ -5,12 +5,15 @@ export function Hero() {
         <h1 className="mb-6">
           <span className="font-handwriting text-3xl block">Olá, me chamo</span>
           <span className="font-headline text-5xl font-light">Francisco</span>
-          <span className="font-headline text-5xl font-semibold text-pink-900 from-green-900">
+          <span className="font-headline text-5xl font-semibold text-blue-800">
             Etizel
           </span>
         </h1>
-        <div className="h-1 w-12 rounded-full bg-pink-900"></div>
-        <h2 className="font-semibold">Desenvolvedor React.js FrontEnd</h2>
+
+        <h2 className="font-semibold flex items-center">
+          <div className="h-1 w-12 rounded-full bg-blue-800" />
+          Desenvolvedor React.js Front-End
+        </h2>
       </div>
     </section>
   );
