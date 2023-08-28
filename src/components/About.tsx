@@ -1,4 +1,4 @@
-export function About() {
+export default function About() {
   return (
     <section className="container mx-auto my-4 max-w-5xl p-4">
       <div className="relative p-4 text-center">

@@ -1,5 +1,5 @@
 import { HiDownload } from 'react-icons/hi';
-export function Hero() {
+export default function Hero() {
   return (
     <section className="bg-gradient-to-tr from-black to-gray-900 text-white ">
       <div className="container mx-auto m-w-4xl p-4 py-4 flex flex-col md:flex-row">
