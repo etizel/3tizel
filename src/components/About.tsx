@@ -8,8 +8,17 @@ export default function About() {
         </h2>
         <p className="relative text-sm text-gray-600">
           Com uma lista de projetos executados com sucesso, estou ansioso para
-          fazer do próximo projeto o seu. Meu GitHub é repleto de demonstrações
-          do meu trabalho.
+          fazer do próximo projeto o seu. Meu{' '}
+          <a
+            href="https://github.com/etizel?tab=repositories"
+            className="text-blue-500 hover:text-red-500 transition"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+            {'  '}
+          </a>
+          é repleto de demonstrações do meu trabalho.
         </p>
         <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-100/40" />
       </div>

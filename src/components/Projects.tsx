@@ -46,7 +46,7 @@ export default function Projects() {
 
   return (
     <>
-      <section className="rounded-tl-[80px] bg-gradient-to-tr from-black to-gray-900 text-white md:rounded-tl-[180px]">
+      <section className="rounded-l-[80px] bg-gradient-to-tr from-black to-gray-900 text-white md:rounded-tl-[180px]">
         <div className="container mx-auto max-w-4xl p-4 py-12">
           <div className="relative p-4 text-center">
             <h2 className="relative z-50 mb-2 text-white">

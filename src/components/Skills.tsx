@@ -15,7 +15,7 @@ export default function Skills() {
 
   const skills = [
     {
-      name: 'HTML5/CSS3',
+      name: 'Typescript',
       icon: 'images/html.svg',
     },
     {
