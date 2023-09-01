@@ -130,7 +130,7 @@ export default function Contact() {
               <div>
                 <button
                   type="submit"
-                  className="button flex items-center gap-2 text-blue-700"
+                  className="button flex items-center gap-2 text-white-700"
                   disabled={loading}
                 >
                   {loading && <FaSpinner className="h-4 w-4 animate-spin" />}

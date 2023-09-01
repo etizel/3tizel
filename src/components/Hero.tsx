@@ -9,13 +9,13 @@ export default function Hero() {
               Olá, me chamo
             </span>
             <span className="font-headline text-5xl font-light">Francisco</span>
-            <span className="font-headline text-5xl font-semibold text-blue-800">
+            <span className="font-headline text-5xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-blue-900">
               Etizel
             </span>
           </h1>
 
           <h2 className="font-semibold flex items-center gap-2 text-center md:text-left">
-            <div className="h-1 w-12 rounded-full bg-blue-800" />
+            <div className=" bg-gradient-to-r from-blue-200 to-blue-900 h-1 w-16 rounded-full " />
             Desenvolvedor React.js Front-End
           </h2>
 
