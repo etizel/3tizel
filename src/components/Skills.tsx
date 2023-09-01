@@ -3,20 +3,20 @@ import { HiAcademicCap, HiCodeBracketSquare } from 'react-icons/hi2';
 export default function Skills() {
   const educations = [
     {
-      name: 'Curso de Desenvolvimento Web Full Stack | Origamid',
-    },
-    {
-      name: 'Curso de Desenvolvimento Web Full Stack | Dev Samurai',
-    },
-    {
       name: 'Análise e Desenvolvimento de Sistemas | Estácio',
+    },
+    {
+      name: 'Curso de Desenvolvimento Web e Design | Origamid',
+    },
+    {
+      name: 'Curso de Desenvolvimento Web Full Stack | DevSamurai',
     },
   ];
 
   const skills = [
     {
       name: 'Typescript',
-      icon: 'images/html.svg',
+      icon: 'images/typescript.svg',
     },
     {
       name: 'JavaScript',
@@ -28,7 +28,15 @@ export default function Skills() {
     },
     {
       name: 'Node.js',
-      icon: 'images/nodejs.svg',
+      icon: 'images/node.svg',
+    },
+    {
+      name: 'Tailwind.css',
+      icon: 'images/tailwind.svg',
+    },
+    {
+      name: 'Next.js',
+      icon: 'images/next.svg',
     },
   ];
 
@@ -79,11 +87,11 @@ export default function Skills() {
                   key={`skill-${index}`}
                   className="flex flex-row items-center gap-2 md:flex-col md:items-start"
                 >
-                  <div className="flex h-14 w-14 items-center justify-center rounded-lg bg-white p-2">
+                  <div className="flex h-14 w-14 items-center justify-center rounded-lg bg-white p-2  hover:bg-blue-200 hover:scale-105">
                     <img
                       src={skill.icon}
                       alt={skill.name}
-                      className="h-10 w-10 rounded"
+                      className="h-14 w-16 rounded"
                     />
                   </div>
                   <div className="w-full flex-grow">
