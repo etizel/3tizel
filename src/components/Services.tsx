@@ -4,7 +4,7 @@ import {
   HiDevicePhoneMobile,
 } from 'react-icons/hi2';
 
-export default function Services(): void {
+export default function Services(): JSX.Element {
   const services = [
     {
       title: 'Web',
