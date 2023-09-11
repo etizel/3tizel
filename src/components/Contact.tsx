@@ -1,11 +1,7 @@
 // import emailjs from '@emailjs/browser';
 import { FormEvent, useRef, useState } from 'react';
-import { FaSpinner, FaWhatsapp } from 'react-icons/fa';
-import {
-  HiCheckCircle,
-  HiOutlineEnvelope,
-  HiOutlineMapPin,
-} from 'react-icons/hi2';
+import { FaGithubSquare, FaSpinner, FaWhatsapp } from 'react-icons/fa';
+import { HiCheckCircle, HiOutlineEnvelope } from 'react-icons/hi2';
 
 export default function Contact() {
   const form = useRef<HTMLFormElement>(null);
@@ -43,26 +39,29 @@ export default function Contact() {
   const contacts = [
     {
       name: 'WhatsApp',
-      description: '+55 12 9.999-9999',
+      description: '+55 79 98132-7973',
       link: 'https://wa.me/5512982041640?text=Olá...',
       icon: <FaWhatsapp className="h-10 w-10" />,
     },
     {
       name: 'Email',
-      description: 'joao-test@testemail.com',
+      description: 'franciscoetizel@gmail.com',
       link: 'mailto:joao-test@testemail.com?subject=Olá...',
       icon: <HiOutlineEnvelope className="h-10 w-10" />,
     },
     {
-      name: 'São José dos Campos',
-      description: 'Centro, 123',
-      link: 'https://goo.gl/maps/4yacADQtLB8jz8zn9?coh=178573&entry=tt',
-      icon: <HiOutlineMapPin className="h-10 w-10" />,
+      name: 'Github',
+      description: 'perfil do github',
+      link: 'https://github.com/etizel',
+      icon: <FaGithubSquare className="h-10 w-10" />,
     },
   ];
 
   return (
-    <section id="contact" className="bg-blue-700 text-white">
+    <section
+      id="contact"
+      className="bg-gradient-to-tr from-black to-gray-900 text-white"
+    >
       <div className="container mx-auto max-w-4xl p-4 py-8">
         <div className="mb-6">
           <h2 className="z-50 mb-2">
