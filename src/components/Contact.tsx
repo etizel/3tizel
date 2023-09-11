@@ -1,4 +1,4 @@
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 import { FormEvent, useRef, useState } from 'react';
 import { FaGithubSquare, FaSpinner, FaWhatsapp } from 'react-icons/fa';
 import { HiCheckCircle, HiOutlineEnvelope } from 'react-icons/hi2';
@@ -18,10 +18,10 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        'service_sf8b2ti',
-        'template_6wgy6nc',
+        'service_qf1yhch',
+        'template_h9iinjx',
         form.current,
-        '4GbIsCzVifbY3ve0-',
+        'evk7lnmCe0O6_d9gP',
       )
       .then(
         () => {
@@ -46,7 +46,7 @@ export default function Contact() {
     {
       name: 'Email',
       description: 'franciscoetizel@gmail.com',
-      link: 'mailto:joao-test@testemail.com?subject=Olá...',
+      link: 'service_qf1yhch',
       icon: <HiOutlineEnvelope className="h-10 w-10" />,
     },
     {
