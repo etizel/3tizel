@@ -43,7 +43,7 @@ export default function Services(): void {
       <div className="mt-6 flex flex-col gap-2 md:flex-row">
         {services.map((service, index) => (
           <div
-            className="basis-1/3 rounded-lg bg-gradient-to-tr from-black to-blue-900 p-4 text-white"
+            className="basis-1/3 rounded-lg bg-gradient-to-tr from-black to-gray-900 p-4 text-white"
             key={`service-${index}`}
           >
             <div className="mb-2">{service.icon}</div>
