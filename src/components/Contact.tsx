@@ -40,7 +40,7 @@ export default function Contact() {
     {
       name: 'WhatsApp',
       description: '+55 79 98132-7973',
-      link: 'https://wa.me/5512982041640?text=Olá...',
+      link: 'https://api.whatsapp.com/send/?phone=5579981327973&text&type=phone_number&app_absent=0',
       icon: <FaWhatsapp className="h-10 w-10" />,
     },
     {
