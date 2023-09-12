@@ -29,8 +29,11 @@ export default function Testimonials() {
             src="./images/heleno.jpg"
             alt="Heleno Andrade"
           />
-          <div className="flex items-center divide-x-2 divide-gray-200">
+          <div className="fex-col justify-between items-center divide-x-2 divide-gray-200">
             <div className="pr-3 font-medium text-gray-900">Heleno Andrade</div>
+            <div className="pr-2 text-sm text-gray-800">
+              Coordenador do centro de segurança do Banco do estado
+            </div>
           </div>
         </figcaption>
       </figure>
