@@ -26,7 +26,7 @@ export default function Hero() {
           </p>
 
           <div className="flex items-center justify-center md:justify-start gap-2 ">
-            <a href="#" className="underline font-bold text-white">
+            <a href="./Contact.tsx" className="underline font-bold text-white">
               Entre em Contato
             </a>
             <span className="italic text-gray-500">ou</span>
