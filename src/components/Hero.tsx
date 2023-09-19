@@ -31,7 +31,7 @@ export default function Hero() {
             </a>
             <span className="italic text-gray-500">ou</span>
             <a
-              href="#"
+              href="./images/Francisco-etizel-CV.pdf"
               className="button hover:text-gray-900 flex items-center gap-2"
             >
               <HiDownload />

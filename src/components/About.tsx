@@ -8,7 +8,7 @@ export default function About() {
         </h2>
         <p className="relative text-sm text-gray-600">
           Com uma lista de projetos executados com sucesso, estou feliz em poder
-          trabalhar nos seus proximos projetos. Meu{' '}
+          trabalhar nos seus próximos projetos. Meu{' '}
           <a
             href="https://github.com/etizel?tab=repositories"
             className="text-blue-500 hover:text-red-500 transition"
