@@ -1,7 +1,12 @@
 import emailjs from '@emailjs/browser';
 import { FormEvent, useRef, useState } from 'react';
-import { FaGithubSquare, FaSpinner, FaWhatsapp } from 'react-icons/fa';
-import { HiCheckCircle, HiOutlineEnvelope } from 'react-icons/hi2';
+import {
+  FaGithubSquare,
+  FaSpinner,
+  FaWhatsapp,
+  FaLinkedin,
+} from 'react-icons/fa';
+import { HiCheckCircle } from 'react-icons/hi2';
 
 export default function Contact() {
   const form = useRef<HTMLFormElement>(null);
@@ -44,10 +49,10 @@ export default function Contact() {
       icon: <FaWhatsapp className="h-10 w-10" />,
     },
     {
-      name: 'Email',
-      description: 'franciscoetizel@gmail.com',
-      link: 'service_qf1yhch',
-      icon: <HiOutlineEnvelope className="h-10 w-10" />,
+      name: 'LinkedIn',
+      description: 'perfil do LinkedIn',
+      link: 'https://www.linkedin.com/in/francisco-etizel-a94056191/',
+      icon: <FaLinkedin className="h-10 w-10" />,
     },
     {
       name: 'Github',

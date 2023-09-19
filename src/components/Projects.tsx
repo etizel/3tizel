@@ -22,13 +22,13 @@ export default function Projects() {
       description: 'Desenvolvimento de um projeto em html, css e javascript',
       image: 'images/bickcraft.png',
       link: 'https://etizel.github.io/bickcraft/',
-      colSpan: 'col-span-1',
+      colSpan: 'col-span-1 md:col-span-2',
     },
     {
-      title: 'Lissandra',
-      description: 'Desenvolvido com UI / UX Design, html e css',
-      image: 'images/lissandra.png',
-      link: '#',
+      title: 'Targues',
+      description: 'Desenvolvido com UI / UX Design, php e Wordpress',
+      image: 'images/targues.png',
+      link: 'https://targues.com/',
       colSpan: 'col-span-1',
     },
   ];
