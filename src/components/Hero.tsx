@@ -1,4 +1,5 @@
 import { HiDownload } from 'react-icons/hi';
+
 export default function Hero() {
   return (
     <section className="bg-gradient-to-tr from-black to-gray-900 text-white ">
@@ -26,10 +27,6 @@ export default function Hero() {
           </p>
 
           <div className="flex items-center justify-center md:justify-start gap-2 ">
-            <a href="./Contact.tsx" className="underline font-bold text-white">
-              Entre em Contato
-            </a>
-            <span className="italic text-gray-500">ou</span>
             <a
               href="./images/Francisco-etizel-CV.pdf"
               className="button hover:text-gray-900 flex items-center gap-2"

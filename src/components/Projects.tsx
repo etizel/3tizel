@@ -14,7 +14,7 @@ export default function Projects() {
       title: 'Animais Fantásticos',
       description: 'Desenvolvimento de um projeto em javascript, html e css',
       image: 'images/Animais-Fantásticos.png',
-      link: '#',
+      link: 'https://etizel.github.io/animais-fantasticos/',
       colSpan: 'col-span-1 md:col-span-2',
     },
     {
@@ -28,14 +28,6 @@ export default function Projects() {
       title: 'Lissandra',
       description: 'Desenvolvido com UI / UX Design, html e css',
       image: 'images/lissandra.png',
-      link: '#',
-      colSpan: 'col-span-1',
-    },
-    {
-      title: 'Projeto 5',
-      description: 'Descrição do projeto 5',
-      image:
-        'https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bW9iaWxlJTIwYXBwfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60',
       link: '#',
       colSpan: 'col-span-1',
     },
